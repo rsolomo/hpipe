@@ -16,5 +16,5 @@ The simplest way to try it out is to do this:
 - browse to http://localhost:8000
 - type some text at the prompt, and watch it show up on your browser
 
-You can also pipe streams to it.  
-Example: `tail -f example.log | hpipe`
+You can also pipe streams to it and choose an alternative listening address.  
+Example: `tail -f example.log | hpipe -a 0.0.0.0`
