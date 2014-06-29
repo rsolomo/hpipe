@@ -1,6 +1,6 @@
 {
   "name": "hpipe",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Tool to pipe streams to a web interface.",
   "bin": "bin/hpipe",
   "scripts": {
