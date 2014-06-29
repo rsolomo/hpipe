@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"/>
+  <title>stream2http</title>
+</head>
+<body>
+  <h1>stream2http</h1>
+  <script>
+  ;(function() {
+    var source = new EventSource('/events')
+    source.addEventListener('input', onInput, false)
+
+    function onInput(event) {
+      var p = document.createElement('p')
+      p.textContent = event.data
+      document.body.appendChild(p)
+    }
+  }())
+  </script>
+</body>
+</html>

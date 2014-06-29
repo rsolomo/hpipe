@@ -1,0 +1,24 @@
+{
+  "name": "hpipe",
+  "version": "0.0.0",
+  "description": "Tool to pipe streams to a web interface.",
+  "main": "server.js",
+  "scripts": {
+    "test": "mocha",
+    "lint": "eslint . bin/hpipe"
+  },
+  "author": "Ray Solomon <raybsolomon@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rsolomo/hpipe.git"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "byline": "^4.1.1",
+    "commander": "^2.2.0",
+    "node-static": "^0.7.3"
+  },
+  "devDependencies": {
+    "sinon": "^1.10.2"
+  }
+}
